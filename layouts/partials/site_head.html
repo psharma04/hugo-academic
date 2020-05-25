@@ -13,6 +13,7 @@
       });
     }
   </script>
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
   {{ $scr := .Scratch }}
 
   {{/* Attempt to load superuser. */}}
@@ -215,4 +216,5 @@
   {{ partial "custom_head" . }}
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 </head>
