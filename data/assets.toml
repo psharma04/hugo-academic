@@ -17,7 +17,7 @@
   sri = "sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ="
   url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/highlight.min.js"
 [js.mathJax]
-  version = "3"
+  version = "3.0.5"
   sri = ""  # No SRI as dynamically generated.
   url = "https://cdn.jsdelivr.net/npm/mathjax@%s/es5/tex-chtml.js"
   async = true
@@ -86,6 +86,7 @@
   version = "1.6.0"
   sri = "" #dynamically generated
   url = "https://cdn.jsdelivr.net/npm/leaflet@%s/dist/leaflet.min.css"
+
 [css.fancybox]
   version = "3.5.7"
   sri = "sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA="
