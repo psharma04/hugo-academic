@@ -33,7 +33,7 @@
     </span>
     {{ end }}
   </p>
-  <script src="https://csec-cdn.intranet.pw/libraries/coronabar.min.js">
+  <script src="https://csec-cdn.intranet.pw/libraries/coronabar.min.js"></script>
     <div id="coronabar" role="banner" class="cb-position-bottom" aria-label="CoronaBar" style="background-color: rgba(0, 0, 0, 0.8); color: rgb(255, 255, 255); --darkreader-inline-bgcolor:rgba(0, 0, 0, 0.8); --darkreader-inline-color:#ffffff;" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">
                 <div class="coronabar-container">
                     <div id="cb-message" class="cb-content-part">Spread the message. Stop the virus.</div>
@@ -52,13 +52,3 @@
                 <a href="javascript:void(0);" id="cb-close-notice" class="cb-close-icon" aria-label="Close"></a>
             </div>
 </footer>
-<script type="module">
-  // This is the "Offline copy of pages" service worker
-
-// Add this below content to your HTML page inside a <script type="module"></script> tag, or add the js file to your page at the very top to register service worker
-
-import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-
-const el = document.createElement('pwa-update');
-document.body.appendChild(el);
-</script>
