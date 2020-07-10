@@ -3,16 +3,18 @@
 
 title: "{{ replace .Name "-" " " | title }}"
 event:
-event_url:
+event_url: ""
 location:
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
+address: # Don't write on this line
+  street: ""
+  city: ""
+  region: ""
+  postcode: ""
+  country: ""
+# A brief overview of what the talk is/was about.
+summary: ""
+# A more in-depth summary. Include key points of the talk.
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +32,7 @@ tags: []
 featured: false
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -46,11 +48,16 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
-url_slides:
+url_slides: ""
 
-url_code:
-url_pdf:
-url_video:
+# If you had multiple documents, compress them as a ZIP file, upload to https://dmca.gripe, and paste the link between the quotes:
+url_code: ""
+
+# If you had a worksheet, or some sort of document (e.g. PDF, google doc, etc.), past the link between the quotes:
+url_pdf: ""
+
+# If you have a recording (audio or video), or a stream link, paste the link between the quotes:
+url_video: ""
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
