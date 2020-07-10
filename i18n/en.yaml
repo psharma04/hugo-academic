@@ -49,7 +49,7 @@
   translation: Preprint
 
 - id: btn_pdf
-  translation: PDF
+  translation: Sheets
 
 - id: btn_cite
   translation: Cite
@@ -58,10 +58,10 @@
   translation: Slides
 
 - id: btn_video
-  translation: Video
+  translation: Video/Stream
 
 - id: btn_code
-  translation: Code
+  translation: All Documents
 
 - id: btn_dataset
   translation: Dataset
@@ -208,7 +208,7 @@
   translation: Search
 
 - id: search_placeholder
-  translation: Search...
+  translation: Search for...
 
 - id: search_results
   translation: results found
