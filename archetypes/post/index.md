@@ -27,3 +27,14 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+{{% toc %}}
+
+<!-- Start Content below this line -->
+
+
+
+<!-- End Content here -->
+---
+# References
+<!-- Put references below this line. APA, Chicago, Harvard, MLA, and Turabin are all acceptable. -->
