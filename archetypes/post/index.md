@@ -27,3 +27,12 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% toc %}}
+---
+<!-- Start content below this line. If you need help, go to https://schoolnotes.xyz/docs/posts/ -->
+
+
+
+---
+# References
+<!-- Footnotes and references go below this line -->
