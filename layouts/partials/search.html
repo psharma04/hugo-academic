@@ -13,8 +13,8 @@
 
       <div id="search-box">
         {{ if eq site.Params.search.engine 1 }}
-        <input name="q" id="search-query" placeholder="{{i18n "search_placeholder"}}" autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        <input name="q" id="search-query" placeholder="{{i18n "search_placeholder"}}" autocapitalize="on"
+        autocomplete="on" autocorrect="on" spellcheck="true" type="search" class="form-control">
         {{ else }}
         <!-- Search box will appear here -->
         {{ end }}
